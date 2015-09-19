@@ -138,7 +138,6 @@
     </div>
 
     <div id="preview"><?php
-echo htmlentities(print_r($_SERVER,true));
     ?></div>
 
 </div>
@@ -149,24 +148,6 @@ echo htmlentities(print_r($_SERVER,true));
 </div>
 
 </div>
-
-<!--
-<textarea name="editor"></textarea>
-
-<div id="header">
-<ul class="nav nav-pills">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="#">Profile</a></li>
-  <li role="presentation"><a href="#">Messages</a></li>
-</ul>
-    /*<input type="submit" value="実行">*/
-</div>
-    
-<div id="editor_preview">
-    <div id="editor"></div>
-    <div id="preview">aaaaaaaa</div>
-</div>
--->
 
 <script src="assets/cache/jquery/jquery.min.js?v=2.1.*" type="text/javascript" charset="utf-8"></script>
 <script src="assets/cache/twitter-bootstrap/js/bootstrap.min.js?v=3.*" type="text/javascript" charset="utf-8"></script>
